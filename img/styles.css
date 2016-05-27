@@ -424,13 +424,6 @@ h2, .h2 {
     text-align: center;
 }
 
-.banner-container {
-    /* background: url('../images/dots.png'); */
-    background-repeat: repeat;
-    height: 500px;
-    background: rgba(224, 73, 222, 0.13);
-}
-
 /* wtMenu
 ----------------------------------------------*/
 #mainNav {
@@ -493,7 +486,7 @@ h2, .h2 {
 
 /*home*/
 #home .heading {
-    margin-top: 18%;
+    margin-top: 14%;
 }
 
 #home .heading h2 {
@@ -1136,8 +1129,8 @@ footer {
 
     .back-img{
         position: absolute;
-        width: 1500px;
-        max-width: 1500px;
+        width: 1600px;
+        max-width: 1600px;
     }
 
     .header .navbar-brand {

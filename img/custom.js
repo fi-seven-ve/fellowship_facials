@@ -95,19 +95,3 @@ var customScripts = {
         customScripts.waySlide();
     }
 }
-$('document').ready(function () {
-    $.backstretch([
-        "images/img1.jpg"
-        , "images/img2.jpg"
-    ], {duration: 3000, fade: 1250});
-
-    customScripts.init();
-    $('#events .col-md-3, #features, #aboutUs, #clients, #portfolio, #plans, #contactUs .parlex-back').css('opacity', '0');
-    $("#menuToggle").toggle(function () {
-        $(this).find('i').removeClass('fa-bars').addClass('fa-remove');
-        $('#mainNav').animate({"right": "0px"}, "slow");
-    }, function () {
-        $('#mainNav').animate({"right": "-200px"}, "slow");
-        $(this).find('i').removeClass('fa-remove').addClass('fa-bars');
-    });
-});
