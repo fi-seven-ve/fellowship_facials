@@ -507,25 +507,6 @@ h2, .h2 {
     font-weight: normal;
 }
 
-#home .heading h1 {
-    font-size: 84px !important;
-    font-family: 'Pacifico', cursive;
-    color: #263238;
-    text-shadow: 2px 2px #F89F9F;
-    padding: 30px 0;
-}
-
-#home .heading h2 {
-    color: #263238;
-    font-family: 'Pacifico', cursive;
-    font-size: 34px !important;
-}
-
-#home .heading h3 {
-    color: #263238;
-    font-size: 24px !important;
-    font-weight: bold;
-}
 
 /* Header
 ----------------------------------------------*/
@@ -1132,6 +1113,33 @@ footer {
 }
 
 @media (min-width: 768px) {
+
+    #home .heading h1 {
+        font-size: 80px !important;
+        font-family: 'Pacifico', cursive;
+        color: #263238;
+        text-shadow: 2px 2px #F89F9F;
+        padding: 30px 0;
+    }
+
+    #home .heading h2 {
+        color: #263238;
+        font-family: 'Pacifico', cursive;
+        font-size: 34px !important;
+    }
+
+    #home .heading h3 {
+        color: #263238;
+        font-size: 24px !important;
+        font-weight: bold;
+    }
+
+    .back-img{
+        position: absolute;
+        width: 1500px;
+        max-width: 1500px;
+    }
+
     .header .navbar-brand {
         padding-left: 0;
     }
@@ -1150,6 +1158,13 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+    .back-img{
+        position: absolute;
+        width: 1500px;
+        max-width: 1500px;
+    }
+
     .banner-container {
         height: 500px;
     }
@@ -1186,6 +1201,33 @@ footer {
 }
 
 @media (max-width: 760px) {
+
+    #home .heading h1 {
+        font-size: 54px !important;
+        font-family: 'Pacifico', cursive;
+        color: #263238;
+        text-shadow: 2px 2px #F89F9F;
+        padding: 30px 0;
+    }
+
+    #home .heading h2 {
+        color: #263238;
+        font-family: 'Pacifico', cursive;
+        font-size: 30px !important;
+    }
+
+    #home .heading h3 {
+        color: #263238;
+        font-size: 20px !important;
+        font-weight: bold;
+    }
+
+    .back-img{
+        position: absolute;
+        width: 1500px;
+        max-width: 1500px;
+    }
+
     .header .navbar-nav > li > a {
         padding: 7px 12px;
         font-size: 14px;
@@ -1197,21 +1239,48 @@ footer {
 }
 
 @media (max-width: 480px) {
+
+    #home .heading h1 {
+        font-size: 74px !important;
+        font-family: 'Pacifico', cursive;
+        color: #263238;
+        text-shadow: 2px 2px #F89F9F;
+        padding: 30px 0;
+    }
+
+    #home .heading h2 {
+        color: #263238;
+        font-family: 'Pacifico', cursive;
+        font-size: 24px !important;
+    }
+
+    #home .heading h3 {
+        color: #263238;
+        font-size: 14px !important;
+        font-weight: bold;
+    }
+
+    .back-img{
+        position: absolute;
+        width: 1000px;
+        max-width: 1000px;
+    }
+
     .banner-container {
         height: 355px;
     }
 
     #home .heading h1 {
-        font-size: 43px !important;
+        font-size: 35px !important;
     }
 
     #home .heading h2 {
-        font-size: 34px !important;
+        font-size: 25px !important;
     }
 
     #home .heading h3 {
         color: #263238;
-        font-size: 20px !important;
+        font-size: 15px !important;
         font-weight: bold;
         line-height: 28px;
     }
@@ -1266,6 +1335,35 @@ footer {
 }
 
 @media (max-width: 320px) {
+
+
+
+    #home .heading h1 {
+        font-size: 64px !important;
+        font-family: 'Pacifico', cursive;
+        color: #263238;
+        text-shadow: 2px 2px #F89F9F;
+        padding: 30px 0;
+    }
+
+    #home .heading h2 {
+        color: #263238;
+        font-family: 'Pacifico', cursive;
+        font-size: 14px !important;
+    }
+
+    #home .heading h3 {
+        color: #263238;
+        font-size: 7px !important;
+        font-weight: bold;
+    }
+
+    .back-img{
+        position: absolute;
+        width: 1000px;
+        max-width: 1000px;
+    }
+
     .banner-container {
     }
 
