@@ -1,11 +1,56 @@
-html,body {
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+
+
+@media (min-width: 768px) {
+    html,body {
+        background: url(../img/background-xxl.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 }
 
-.back-img{
-    height: 100%;
-    background: url('../img/background.jpg') center;
-    background-size: cover;
+@media (max-width: 768px) {
+    html,body {
+        background: url(../img/background-xl.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 }
+
+@media (max-width: 760px) {
+    html,body {
+        background: url(../img/background-l.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 480px) {
+    html,body {
+        background: url(../img/background-m.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 320px) {
+    html,body {
+        background: url(../img/background-s.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+
+
+
+
