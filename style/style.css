@@ -18,11 +18,6 @@ body {
     -o-transition: all 0.3s linear;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
-}
-
 #home .heading {
     padding: 10px;
 }
@@ -78,7 +73,6 @@ img{
 #aboutUs {
     padding-top: 35px;
     padding-bottom: 25px;
-    overflow: hidden;
     color: #F06292;
 }
 
@@ -88,10 +82,6 @@ img{
 
 #aboutUs p {
     color: #263238;
-}
-
-.row .six {
-    width: 50%;
 }
 
 .rounded {
@@ -129,6 +119,11 @@ img{
         width:80px;
         margin-top: 30px;
     }
+
+    .feature-img{
+        width:600px;
+        height: auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -157,8 +152,9 @@ img{
         margin-top: 25px;
     }
 
-    .row .six {
-        width: auto;
+    .feature-img{
+        width:550px;
+        height: auto;
     }
 }
 
@@ -186,6 +182,11 @@ img{
     .flower-icon {
         width:70px;
         margin-top: 20px;
+    }
+
+    .feature-img{
+        width:500px;
+        height: auto;
     }
 }
 
@@ -218,6 +219,11 @@ img{
     .copyright {
         font-size: 13px;
     }
+
+    .feature-img{
+        width:300px;
+        height: auto;
+    }
 }
 
 @media (max-width: 320px) {
@@ -244,6 +250,11 @@ img{
     .flower-icon {
         width:60px;
         margin-top: 10px;
+    }
+
+    .feature-img{
+        width:150px;
+        height: auto;
     }
 }
 
