@@ -45,7 +45,6 @@ body {
   padding-bottom: 25px;
 }
 
-
 .featurette-divider {
   margin: 80px 0;
 }
@@ -88,6 +87,10 @@ body {
 .shadow-text{
   font-weight: bolder;
   text-shadow: 2px 2px #F06292;
+}
+
+.middle {
+  padding-top: 50px;
 }
 
 .rounded {
