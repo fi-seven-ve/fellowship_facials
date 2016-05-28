@@ -106,7 +106,7 @@ body {
 
 @media only screen and (max-width : 979px) {
   html, body {
-    background: url(../img/background-xl.jpg) no-repeat top center fixed;
+    background: url(../img/background-s2.jpg) no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
