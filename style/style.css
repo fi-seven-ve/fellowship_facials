@@ -112,7 +112,7 @@ body {
   }
 
   #myjubotron {
-    background: url(../img/back-woman-sm.jpg) no-repeat top center fixed !important;
+    background: url(../img/back-woman-m.jpg) no-repeat top center fixed !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -124,7 +124,39 @@ body {
   }
 }
 
+@media only screen and (max-width : 768px) {
+
+  #myjubotron {
+    background: url(../img/back-woman-s.jpg) no-repeat top center fixed !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+
+  #myjubotron {
+    background: url(../img/back-woman-xs.jpg) no-repeat top center fixed !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+}
+
 @media only screen and (max-width : 320px) {
+
+  #myjubotron {
+    background: url(../img/back-woman-xs.jpg) no-repeat top center fixed !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
   .flower-icon {
     display: none;
   }
