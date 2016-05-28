@@ -76,7 +76,7 @@ body {
 }
 
 .transparent {
-  background:transparent !important
+  background:transparent !important;
 }
 
 #myjubotron {
@@ -100,6 +100,19 @@ body {
 @media only screen and (max-width : 979px) {
   html, body {
     background: url(../img/back-flowers.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+  .transparent {
+    background:none !important;
+  }
+
+  #myjubotron {
+    background: url(../img/back-woman-sm.jpg) no-repeat top center fixed !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
