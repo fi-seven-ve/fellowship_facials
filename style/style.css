@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Great+Vibes:400,700);
 
 html,body {
-  background: url(../img/background-xxl.jpg) no-repeat top center fixed;
+  background: url(../img/back-woman.jpg) no-repeat top center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -96,7 +96,7 @@ body {
 =====================================================*/
 @media only screen and (max-width : 1200px) {
   html,body {
-    background: url(../img/background-xxl.jpg) no-repeat top center fixed;
+    background: url(../img/back-woman.jpg) no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -106,7 +106,7 @@ body {
 
 @media only screen and (max-width : 979px) {
   html, body {
-    background: url(../img/background-s2.jpg) no-repeat top center fixed;
+    background: url(../img/back-flowers.jpg) no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -118,35 +118,7 @@ body {
   }
 }
 
-@media only screen and (max-width : 767px) {
-  html, body {
-    background: url(../img/background-s2.jpg) no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-}
-
-@media only screen and (max-width : 480px) {
-  html, body {
-    background: url(../img/background-s2.jpg) no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-}
-
 @media only screen and (max-width : 320px) {
-  html, body {
-    background: url(../img/background-s2.jpg) no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
   .flower-icon {
     display: none;
   }
