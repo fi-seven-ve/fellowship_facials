@@ -1,256 +1,168 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
-@import url(http://fonts.googleapis.com/css?family=Pacifico);
-
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+html,body {
+  background: url(../img/background-xxl.jpg) no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 body {
-    height: 100%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1.7;
-    color: #666666;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    background: #fff;
-    transition: all 0.3s linear;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
+  padding-bottom: 40px;
+  color: #5a5a5a;
 }
 
-img {
-    width: 100%;
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 350px;
+  margin-bottom: 60px;
 }
 
-#home .heading {
-    padding: 10px;
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.my-values {
+  background-color: #F06292;
 }
 
-#home .heading h1 {
-    font-family: 'Pacifico', cursive;
-    color: #263238;
-    text-shadow: 2px 2px #F06292;
+footer {
+  height: 100px;
+  background-color: #F06292;
 }
 
-#home .heading h2 {
-    font-family: 'Pacifico', cursive;
-    color: #263238;
+.flower-icon {
+  width:80px;
+  margin-top: 30px;
 }
 
-#mission h3{
-    color: #263238;
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
 }
-
-#mission p{
-    color: white;
+.marketing h2 {
+  font-weight: normal;
 }
-
-#mission {
-    background-color: #F06292;
-    color: white;
-}
-
-#padded {
-    margin: 10px;
-}
-
-#aboutUs .feature {
-    background-color: white;
-    opacity: 0.9;
-    border-radius: 25px;
-    padding: 50px;
-    margin-top: 30px;
-    margin-bottom: 54px;
-    box-shadow: 5px 5px 1px #F06292;
-}
-
-#aboutUs .right {
-    padding-left: 32px;
-    float: right;
-}
-
-#aboutUs .left {
-    padding-right: 32px;
-    float: left;
-}
-
-#aboutUs {
-    padding-top: 35px;
-    padding-bottom: 25px;
-    color: #F06292;
-}
-
-#aboutUs h2{
-    font-family: 'Raleway', sans-serif;
-}
-
-#aboutUs p {
-    color: #263238;
-}
-
-.core-value {
-    padding: 50px;
-}
-
-.rounded {
-    border-radius: 25px;
-}
-
-.copyright {
-    color: #FFF4F4;
-    background: #F06292;
-    padding: 20px 0;
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: white;
+  padding-bottom: 25px;
 }
 
 
-@media (max-width: 990px) {
+/* Featurettes
+------------------------- */
 
-    .stacked {
-        border-bottom: double;
-        border-color: #47595f;
-    }
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
 }
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.featurette {
+  background-color: white;
+  padding: 25px;
+}
+
+.purpose-img{
+  padding: 25px;
+}
+
+.top-heading {
+  padding-top:100px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
 
 @media (min-width: 768px) {
-    html,body {
-        background: url(../img/background-xxl.jpg) no-repeat top center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
 
-    .banner-container {
-        height: 250px;
-    }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
 
-    #home .heading h1 {
-        font-size: 65px;
-    }
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
 
-    #home .heading h2 {
-        font-size: 45px;
-    }
-
-    .flower-icon {
-        width:80px;
-        margin-top: 30px;
-    }
+  .rounded {
+    border-radius: 25px;
+  }
 }
 
-@media (max-width: 768px) {
-    html,body {
-        background: url(../img/background-xl.jpg) no-repeat top center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
+@media (max-width: 1200px) {
+  html, body {
+    background: url(../img/background-xl.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
-    .banner-container {
-         height: 200px;
-     }
+  .underline{
+    border-bottom: 1px solid #eee;
+  }
 
-    #home .heading h1 {
-        font-size: 60px;
-    }
-
-    #home .heading h2 {
-        font-size: 40px;
-    }
-
-    .flower-icon {
-        width:75px;
-        margin-top: 25px;
-    }
 }
 
-@media (max-width: 760px) {
-    html,body {
-        background: url(../img/background-l.jpg) no-repeat top center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-
-    .banner-container {
-        height: 190px;
-    }
-
-    #home .heading h1 {
-        font-size: 50px;
-    }
-
-    #home .heading h2 {
-        font-size: 35px;
-    }
-
-    .flower-icon {
-        width:70px;
-        margin-top: 20px;
-    }
+@media (max-width: 990px) {
+  html, body {
+    background: url(../img/background-l.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 
-@media (max-width: 480px) {
-    html,body {
-        background: url(../img/background-m.jpg) no-repeat top center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-
-    .banner-container {
-        height: 150px;
-    }
-
-    #home .heading h1 {
-        font-size: 30px;
-    }
-
-    #home .heading h2 {
-        font-size: 25px;
-    }
-
-    .flower-icon {
-        width:65px;
-        margin-top: 15px;
-    }
-
-    .copyright {
-        font-size: 13px;
-    }
+@media (max-width: 730px) {
+  html, body {
+    background: url(../img/background-m.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 
-@media (max-width: 320px) {
-    html,body {
-        background: url(../img/background-s.jpg) no-repeat top center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
+@media (max-width: 600px) {
+  html, body {
+    background: url(../img/background-s.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
-    .banner-container {
-        height: 130px;
-    }
-
-    #home .heading h1 {
-        font-size: 28px;
-    }
-
-    #home .heading h2 {
-        font-size: 20px;
-    }
-
-    .flower-icon {
-        width:60px;
-        margin-top: 10px;
-    }
+  .carousel {
+    height: 280px;
+    margin-bottom: 60px;
+  }
 }
-
-
-
-
-
