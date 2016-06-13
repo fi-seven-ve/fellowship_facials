@@ -28,6 +28,11 @@ body {
   padding: 25px;
 }
 
+.inline-headers h2, .inline-headers h3 {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
 .flower-icon {
   width:60px;
   margin-top: 30px;
