@@ -21,6 +21,12 @@ body {
   margin: 25px;
 }
 
+.order-now {
+  color: #fff;
+  background-color: #5a5a5a;
+  border-color: #5a5a5a;
+}
+
 .my-values {
   background-color: #F06292;
 }
