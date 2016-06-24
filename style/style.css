@@ -63,6 +63,12 @@ body {
   padding-bottom: 25px;
 }
 
+.marketing .col-lg-8 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: white;
+}
+
 .featurette-divider {
   margin: 80px 0;
 }
